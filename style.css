@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.wapplass{
+
+    background: linear-gradient(90deg,#416a87cf,rgb(84, 120, 158));
+    height: 60vh;
+
+
+}
+.header{
+
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content h2 img{
+
+    margin: 1.56rem;
+}
+.navegate ul{
+
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.navegate ul li{
+
+    list-style: none;
+}
+.navegate ul li a{
+    color: #fff;
+    margin: 0.40em 0.60em;
+    text-decoration: none;
+    padding: 0.30em 0.70em;
+    border-radius: 50px;
+    font-size: 1.1rem;
+
+
+}
+.navegate ul li a.act{
+
+    background: rgba(57, 72, 87, 0.613);
+}
+.heroContainer{
+
+    max-width: 1200px;
+    margin: 1rem auto;
+    
+}
+.data-article{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+
+}
+.article{
+    margin-top: 4rem;
+}
+.article h2{
+
+    color: #fff;
+    display: block;
+    font-size: 3.20rem;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+.article .p1{
+
+    color: #fff;
+    display: block;
+    margin: 0.60em 0em;
+}
+.article .p2{
+
+    color: rgb(218, 218, 218);
+    display: block;
+    margin: 0.60em 0em;
+}
+.links {
+
+    margin-top: 4.50rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    
+
+}
+.links a{
+
+    
+    min-width: 160px;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+.links a.ts{
+    background: #0fa2e0;
+
+}
+.references-Apps{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.ref-ap{
+    background: #eee;
+    padding: 10px;
+}
+.cards-propers{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1200px;
+    margin: 10rem auto;
+    gap: 0.50rem;
+
+}
+.cards-propers .card{
+
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.descr-h h2{
+    text-align: center;
+    margin: 1rem;
+}
