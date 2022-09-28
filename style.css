@@ -10,8 +10,6 @@
 .wapplass{
 
     background: linear-gradient(90deg,#416a87cf,rgb(84, 120, 158));
-    height: 60vh;
-
 
 }
 .header{
@@ -52,7 +50,7 @@
 .heroContainer{
 
     max-width: 1200px;
-    margin: 1rem auto;
+    margin: 0rem auto;
     
 }
 .data-article{
@@ -114,7 +112,7 @@
     display: flex;
     justify-content: space-evenly;
     max-width: 1200px;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 .ref-ap{
     background: #eee;
@@ -125,19 +123,39 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     max-width: 1200px;
-    margin: 10rem auto;
+    margin: 5rem auto;
     gap: 0.50rem;
 
 }
 .cards-propers .card{
 
-    background: red;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.descr-h{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .descr-h h2{
     text-align: center;
     margin: 1rem;
+    color: rgb(38, 51, 59);
+}
+.descr-h p{
+    text-align: center;
+    margin: 0.20rem;
+}
+.descr-h a {
+    text-align: center;
+    display: inline-block;
+    background: #0fa2e0;
+    margin: 1.60rem;
+    padding: 0.70rem;
+    text-decoration: none;
+    color: #fff;
 }
